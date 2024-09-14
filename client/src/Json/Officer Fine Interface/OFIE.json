@@ -1,0 +1,11 @@
+{
+    "driver_license_number": "Driver License Number:",
+    "phone_number": "Phone Number:",
+    "offenses": "Offenses:",
+    "calculate_fine": "Calculate Fine",
+    "total_fine": "Total Fine:",
+    "select_date": "Select Date:",
+    "send_link": "Send Link",
+    "link_sent": "Link Sent!"
+  }
+  

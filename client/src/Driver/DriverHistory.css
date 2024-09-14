@@ -1,0 +1,742 @@
+@media only screen and (min-width: 360px) {
+  .bg_history {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("/public/bgimage.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+  }
+  
+  .bg_history h1 {
+    margin-top: -60px;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+  }
+  
+  .history-container {
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 140px;
+    width: 300px;
+    margin-bottom: 1000px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    background-color: #f9f9f9a3;
+  }
+  
+  .label1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  
+  .input-section {
+    margin-left: 20px;
+  
+  }
+  
+  input[type="text_1"] {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 32px;
+    margin-top: 20px;
+  }
+  
+  
+  button:hover {
+    background-color: #ffd549;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.8em;
+  }
+  
+  .history-table,
+  .payment-history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .history-table th,
+  .history-table td,
+  .payment-history-table th,
+  .payment-history-table td {
+    border: 1px none;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .history-table th,
+  .payment-history-table th {
+    background-color: #000000;
+    color: #ccc;
+  }
+  td {
+    background-color: #f3f0e8;
+  }
+  .license-status {
+    font-weight: bold;
+  }
+  
+  .active {
+    color: green;
+  }
+  
+  .blocked {
+    color: red;
+  }
+  .btn2 {
+    position: relative;
+    margin-left: 70px;
+    background-color: #e4a80e;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    height: 20px;
+    width: 130px;
+    font-size: 0.7em
+  }
+  .btn1 {
+    position: relative;
+    margin-left: 70px;
+    background-color: #e4a80e;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    height: 20px;
+    width: 130px;
+    font-size: 0.7em
+
+  }
+  
+}
+@media only screen and (min-width: 412px) {
+  .bg_history {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("/public/bgimage.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+  }
+  
+  .bg_history h1 {
+    margin-top: -60px;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+  }
+  
+  .history-container {
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 140px;
+    width: 300px;
+    margin-bottom: 1000px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    background-color: #f9f9f9a3;
+  }
+  
+  .label1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  
+  .input-section {
+    margin-left: 20px;
+  
+  }
+  
+  input[type="text_1"] {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 32px;
+    margin-top: 20px;
+  }
+  
+  
+  button:hover {
+    background-color: #ffd549;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.8em;
+  }
+  
+  .history-table,
+  .payment-history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .history-table th,
+  .history-table td,
+  .payment-history-table th,
+  .payment-history-table td {
+    border: 1px none;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .history-table th,
+  .payment-history-table th {
+    background-color: #000000;
+    color: #ccc;
+  }
+  td {
+    background-color: #f3f0e8;
+  }
+  .license-status {
+    font-weight: bold;
+  }
+  
+  .active {
+    color: green;
+  }
+  
+  .blocked {
+    color: red;
+  }
+  .btn2 {
+    position: relative;
+    margin-left: 70px;
+    background-color: #e4a80e;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    height: 20px;
+    width: 130px;
+    font-size: 0.7em
+  }
+  .btn1 {
+    position: relative;
+    margin-left: 70px;
+    background-color: #e4a80e;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    height: 20px;
+    width: 130px;
+    font-size: 0.7em
+
+  }
+  
+}
+@media only screen and (min-width: 576px) {
+  .bg_history {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("/public/bgimage.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+  }
+  
+  .bg_history h1 {
+    margin-top: -60px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+  }
+  
+  .history-container {
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 140px;
+    width: 400px;
+    margin-bottom: 1000px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    background-color: #f9f9f9a3;
+  }
+  
+  .label1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  
+  .input-section {
+    margin-left: 20px;
+  
+  }
+  
+  input[type="text_1"] {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 82px;
+    margin-top: 20px;
+  }
+  
+  
+  button:hover {
+    background-color: #ffd549;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .history-table,
+  .payment-history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .history-table th,
+  .history-table td,
+  .payment-history-table th,
+  .payment-history-table td {
+    border: 1px none;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .history-table th,
+  .payment-history-table th {
+    background-color: #000000;
+    color: #ccc;
+  }
+  td {
+    background-color: #f3f0e8;
+  }
+  .license-status {
+    font-weight: bold;
+  }
+  
+  .active {
+    color: green;
+  }
+  
+  .blocked {
+    color: red;
+  }
+  .btn2 {
+    position: relative;
+    margin-left: 40px;
+    background-color: #e4a80e;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    height: 20px;
+    width: 130px;
+    font-size: 0.7em
+  }
+  .btn1 {
+    position: relative;
+    margin-left: 40px;
+    background-color: #e4a80e;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    height: 20px;
+    width: 130px;
+    font-size: 0.7em
+
+  }
+  
+}
+
+@media only screen and (min-width: 768px) {
+  .bg_history {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("/public/bgimage.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+  }
+  
+  .bg_history h1 {
+    margin-top: -60px;
+    text-align: center;
+    color: white;
+    font-size: 1.8em;
+  }
+  
+  .history-container {
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 140px;
+    width: 600px;
+    margin-bottom: 1000px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    background-color: #f9f9f9a3;
+  }
+  
+  .label1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  
+  .input-section {
+    margin-left: 20px;
+  
+  }
+  
+  input[type="text_1"] {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 183px;
+    margin-top: 20px;
+  }
+  
+  
+  button:hover {
+    background-color: #ffd549;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .history-table,
+  .payment-history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .history-table th,
+  .history-table td,
+  .payment-history-table th,
+  .payment-history-table td {
+    border: 1px none;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .history-table th,
+  .payment-history-table th {
+    background-color: #000000;
+    color: #ccc;
+  }
+  td {
+    background-color: #f3f0e8;
+  }
+  .license-status {
+    font-weight: bold;
+  }
+  
+  .active {
+    color: green;
+  }
+  
+  .blocked {
+    color: red;
+  }
+  .btn2 {
+    position: relative;
+    background-color: #e4a80e;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 30px;
+    width: 150px;
+    border: none;
+    margin-left: 100px;
+  }
+  .btn1 {
+    position: relative;
+    margin-left: 90px;
+    background-color: #e4a80e;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    height: 30px;
+    width: 150px;
+
+  }
+  
+}
+
+@media only screen and (min-width: 992px) {
+  .bg_history {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("/public/bgimage.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+  }
+  
+  .bg_history h1 {
+    margin-top: -80px;
+    text-align: center;
+    color: white;
+  }
+  
+  .history-container {
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 140px;
+    width: 800px;
+    margin-bottom: 1000px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    background-color: #f9f9f9a3;
+  }
+  
+  .label1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  
+  .input-section {
+    margin-left: 20px;
+  
+  }
+  
+  input[type="text_1"] {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 285px;
+    margin-top: 20px;
+  }
+  
+  
+  button:hover {
+    background-color: #ffd549;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .history-table,
+  .payment-history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .history-table th,
+  .history-table td,
+  .payment-history-table th,
+  .payment-history-table td {
+    border: 1px none;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .history-table th,
+  .payment-history-table th {
+    background-color: #000000;
+    color: #ccc;
+  }
+  td {
+    background-color: #f3f0e8;
+  }
+  .license-status {
+    font-weight: bold;
+  }
+  
+  .active {
+    color: green;
+  }
+  
+  .blocked {
+    color: red;
+  }
+  .btn2 {
+    position: relative;
+    background-color: #e4a80e;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 30px;
+    width: 150px;
+    margin-left: 250px;
+  }
+  .btn1 {
+    position: relative;
+    margin-left: 120px;
+    background-color: #e4a80e;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 30px;
+    width: 150px;
+
+  }
+  
+}
+
+@media only screen and (min-width: 1200px) {
+  .bg_history {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("/public/bgimage.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+  }
+  
+  .bg_history h1 {
+    margin-top: -80px;
+    text-align: center;
+    color: white;
+  }
+  
+  .history-container {
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 140px;
+    width: 1000px;
+    margin-bottom: 1000px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    background-color: #f9f9f9a3;
+  }
+  
+  .label1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  
+  .input-section {
+    margin-left: 20px;
+  
+  }
+  
+  input[type="text_1"] {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 390px;
+    margin-top: 20px;
+  }
+  
+  
+  button:hover {
+    background-color: #ffd549;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .history-table,
+  .payment-history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .history-table th,
+  .history-table td,
+  .payment-history-table th,
+  .payment-history-table td {
+    border: 1px none;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .history-table th,
+  .payment-history-table th {
+    background-color: #000000;
+    color: #ccc;
+  }
+  td {
+    background-color: #f3f0e8;
+  }
+  .license-status {
+    font-weight: bold;
+  }
+  
+  .active {
+    color: green;
+  }
+  
+  .blocked {
+    color: red;
+  }
+  .btn2 {
+    margin-left: 350px;
+    position: relative;
+    background-color: #e4a80e;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 30px;
+    width: 150px;
+  }
+  .btn1 {
+    position: relative;
+    margin-left: 175px;
+    background-color: #e4a80e;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 30px;
+    width: 150px;
+
+  }
+}

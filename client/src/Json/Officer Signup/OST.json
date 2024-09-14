@@ -1,0 +1,13 @@
+{
+  "Title": "இங்கே பதிவு  செய்யுங்கள்",
+  "EmailLabel": "மின்னஞ்சல் முகவரி",
+  "EmailPlaceholder": "உங்கள் மின்னஞ்சல் முகவரியை உள்ளிடவும்",
+  "UsernameLabel": "அதிகாரி ஐடி",
+  "UsernamePlaceholder": "உங்கள் அதிகாரி எண்ணை உள்ளிடவும்",
+  "PasswordLabel": "கடவுச்சொல்",
+  "PasswordPlaceholder": "உங்கள் கடவுச்சொல்லை உள்ளிடவும்",
+  "CreateAccountButton": "ஒரு கணக்கை உருவாக்கவும்",
+  "ExistingMemberMessage": "ஏற்கனவே நீங்கள் இதன் உறுப்பினரா?",
+  "LoginButton": "உள்நுழைய",
+  "Conform": "கடவுச்சொல்லை உறுதிப்படுத்தவும்"
+}

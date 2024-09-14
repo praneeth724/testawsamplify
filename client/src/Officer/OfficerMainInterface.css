@@ -1,0 +1,375 @@
+@media only screen and (min-width: 360px) {
+  .bgo {
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+  }
+  .inbodyo {
+    background-color: rgba(253, 252, 252, 0.5);
+    height: 220px;
+    width: 290px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .overlayo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .bodyo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 80%;
+  }
+
+  .bodyo p {
+    text-align: center;
+    font-size: 13px;
+    color: #000000;
+    text-align: center;
+    font-weight: 900;
+    position: relative;
+    top: -135px;
+  }
+
+  .imageo {
+    position: relative;
+    margin-top: 70px;
+    height: 90px;
+    width: 110px;
+    border-radius: 5%;
+    transition: 0.5s;
+  }
+  .linko {
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 412px) {
+  .bgo {
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+  }
+  .inbodyo {
+    background-color: rgba(253, 252, 252, 0.5);
+    height: 270px;
+    width: 350px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .overlayo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 1.4em;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .bodyo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 80%;
+  }
+
+  .bodyo p {
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+    font-weight: 900;
+    position: relative;
+    top: -170px;
+  }
+
+  .imageo {
+    position: relative;
+    margin-top: 90px;
+    height: 120px;
+    width: 140px;
+    border-radius: 5%;
+    transition: 0.5s;
+  }
+  .linko {
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .bgo {
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+  }
+  .inbodyo {
+    background-color: rgba(253, 252, 252, 0.5);
+    height: 350px;
+    width: 500px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .overlayo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 1.8em;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .bodyo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 80%;
+  }
+
+  .bodyo p {
+    text-align: center;
+    font-size: 21px;
+    color: #000000;
+    text-align: center;
+    font-weight: 900;
+    position: relative;
+    top: -230px;
+  }
+
+  .imageo {
+    position: relative;
+    margin-top: 110px;
+    height: 170px;
+    width: 200px;
+    border-radius: 5%;
+    transition: 0.5s;
+  }
+  .linko {
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .bgo {
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+  }
+  .inbodyo {
+    background-color: rgba(253, 252, 252, 0.5);
+    height: 400px;
+    width: 650px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .overlayo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .bodyo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 80%;
+  }
+
+  .bodyo p {
+    text-align: center;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    font-weight: 900;
+    position: relative;
+    top: -270px;
+  }
+
+  .imageo {
+    position: relative;
+    margin-top: 100px;
+    height: 220px;
+    width: 250px;
+    border-radius: 5%;
+    transition: 0.5s;
+  }
+  .linko {
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .bgo {
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+  }
+  .inbodyo {
+    background-color: rgba(253, 252, 252, 0.5);
+    height: 450px;
+    width: 850px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .overlayo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .bodyo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 80%;
+  }
+
+  .bodyo p {
+    text-align: center;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    font-weight: 900;
+    position: relative;
+    top: -350px;
+  }
+
+  .imageo {
+    position: relative;
+    margin-top: 100px;
+    height: 280px;
+    width: 320px;
+    border-radius: 5%;
+    transition: 0.5s;
+  }
+  .linko {
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .bgo {
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+  }
+  .inbodyo {
+    background-color: rgba(253, 252, 252, 0.5);
+    height: 450px;
+    width: 1000px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .overlayo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .bodyo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 80%;
+  }
+
+  .bodyo p {
+    text-align: center;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    font-weight: 900;
+    position: relative;
+    top: -370px;
+  }
+
+  .imageo {
+    position: relative;
+    margin-top: 100px;
+    left: 2.5rem;
+    height: 300px;
+    width: 350px;
+    margin-right: 100px;
+    border-radius: 5%;
+    transition: 0.5s;
+    margin-left: 40px;
+  }
+  .linko {
+    text-decoration: none;
+  }
+}

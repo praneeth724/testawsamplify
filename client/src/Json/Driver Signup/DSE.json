@@ -1,0 +1,13 @@
+{
+  "Title": "Register Here",
+  "EmailLabel": "Email Address",
+  "EmailPlaceholder": "Enter your Email Address",
+  "UsernameLabel": "License No",
+  "UsernamePlaceholder": "Enter your License Number",
+  "PasswordLabel": "Password",
+  "PasswordPlaceholder": "Enter your Password",
+  "RegisterButton": "Create an Account",
+  "ExistingMemberMessage": "Are you an existing member?",
+  "LoginButton": "Login",
+  "Conform": "conform Password"
+}

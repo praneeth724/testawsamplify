@@ -1,0 +1,189 @@
+.bg {
+  margin: 0;
+  padding: 0;
+  background: url("/public/bgimage.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.mainpage {
+  width: 1000px;
+  height: fit-content;
+  margin: auto;
+  position: relative;
+}
+.head {
+  text-align: center;
+}
+.head p {
+  font-size: 25px;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 2%;
+}
+.mainpage h1 {
+  font-size: 85px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: relative;
+  z-index: 1;
+  color: white;
+  margin-bottom: 0%;
+}
+
+.body p {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  margin-top: 05%;
+}
+.user {
+  font-size: x-large;
+  text-align: center;
+  position: relative;
+  top: -40px;
+  color: #e7d8d8;
+  text-shadow: 0 0 8px rgb(12, 12, 12), 0 0 8px rgb(8, 8, 8);
+}
+.top {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.image {
+  position: relative;
+  top: -40px;
+  left: 2.5rem;
+  height: 200px;
+  width: 250px;
+  margin-right: 70px;
+  border-radius: 5%;
+  border: 4px solid #e4a80e;
+}
+.image1 {
+  width: 120px;
+}
+.driver {
+  float: left;
+}
+.officer {
+  float: right;
+}
+
+@media only screen and (min-width: 245px) and (max-width: 360px) {
+  .mainpage {
+    width: 90%; /* Adjust width to fit smaller screens */
+    max-width: 600px; /* Max width for better readability */
+  }
+
+  .mainpage h1 {
+    font-size: 25px; /* Adjust font size for smaller screens */
+  }
+  .head p {
+    font-size: 15px;
+  }
+  .body p {
+    font-size: 15px; /* Adjust font size for smaller screens */
+    margin-bottom: 35px;
+  }
+
+  .user {
+    font-size: large; /* Adjust font size for smaller screens */
+    top: -30px; /* Adjust position for smaller screens */
+  }
+
+  .image {
+    left: 0; /* Center image for smaller screens */
+    margin: auto; /* Center image horizontally */
+    margin-top: 20px; /* Adjust margin top for smaller screens */
+    height: 110px; /* Adjust image height for smaller screens */
+    width: 130px; /* Adjust image width for smaller screens */
+  }
+
+  .driver,
+  .officer {
+    float: none; /* Remove float for smaller screens */
+    text-align: center; /* Center content for smaller screens */
+    margin-bottom: 20px; /* Add margin for spacing */
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 539px) {
+  .mainpage {
+    width: 90%; /* Adjust width to fit smaller screens */
+    max-width: 400px; /* Max width for better readability */
+  }
+
+  .mainpage h1 {
+    font-size: 40px; /* Adjust font size for smaller screens */
+  }
+
+  .body p {
+    font-size: 20px; /* Adjust font size for smaller screens */
+    padding-top: 40px;
+  }
+
+  .user {
+    font-size: medium; /* Adjust font size for smaller screens */
+    top: -25px; /* Adjust position for smaller screens */
+  }
+
+  .image {
+    left: 0; /* Center image for smaller screens */
+    margin: auto; /* Center image horizontally */
+    margin-top: 20px; /* Adjust margin top for smaller screens */
+    height: 140px; /* Adjust image height for smaller screens */
+    width: 140px; /* Adjust image width for smaller screens */
+  }
+
+  .driver {
+    float: left;
+  }
+  .officer {
+    float: right;
+  }
+}
+@media only screen and (min-width: 540px) {
+  .mainpage {
+    width: 90%; /* Adjust width to fit smaller screens */
+    max-width: 600px; /* Max width for better readability */
+  }
+
+  .mainpage h1 {
+    font-size: 60px; /* Adjust font size for smaller screens */
+  }
+
+  .body p {
+    font-size: 25px; /* Adjust font size for smaller screens */
+  }
+
+  .user {
+    font-size: large; /* Adjust font size for smaller screens */
+    top: -30px; /* Adjust position for smaller screens */
+  }
+
+  .image {
+    left: 0; /* Center image for smaller screens */
+    margin: auto; /* Center image horizontally */
+    margin-top: 20px; /* Adjust margin top for smaller screens */
+    height: 180px; /* Adjust image height for smaller screens */
+    width: 200px; /* Adjust image width for smaller screens */
+  }
+
+  .driver {
+    float: left;
+  }
+  .officer {
+    float: right;
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "Title": "Login",
+  "UsernameLabel": "Officer ID",
+  "UsernamePlaceholder": "Enter your Officer ID",
+  "PasswordLabel": "Password",
+  "PasswordPlaceholder": "Enter your password",
+  "LoginButton": "Login",
+  "NewMemberMessage": "Are you a new member?",
+  "CreateAccountButton": "Create an Account",
+  "BackButton": "Back",
+  "Back": "Back",
+  "Forgot": "Forgot Password"
+}

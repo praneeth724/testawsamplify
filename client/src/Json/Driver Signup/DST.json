@@ -1,0 +1,13 @@
+{
+  "Title": "பதிவு செய்க",
+  "EmailLabel": "மின்னஞ்சல் முகவரி",
+  "EmailPlaceholder": "உங்கள் மின்னஞ்சல் முகவரியை உள்ளிடவும்",
+  "UsernameLabel": "ஓட்டுனர் அனுமதி பத்திர எண்",
+  "UsernamePlaceholder": "உங்கள் ஓட்டுனர் அனுமதி பத்திர எண்ணை உள்ளிடவும்",
+  "PasswordLabel": "கடவுச்சொல்",
+  "PasswordPlaceholder": "உங்கள் கடவுச்சொல்லை உள்ளிடவும்",
+  "RegisterButton": "ஒரு கணக்கை உருவாக்கவும்",
+  "ExistingMemberMessage": "ஏற்கனவே நீங்கள் இதன் உறுப்பினரா?",
+  "LoginButton": "உள்நுழை",
+  "Conform": "கடவுச்சொல்லை உறுதிப்படுத்தவும்"
+}

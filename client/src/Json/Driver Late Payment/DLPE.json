@@ -1,0 +1,11 @@
+{
+    "Title": "History Of Your Offences",
+    "AdditionalCharge": "You should pay an additional charge after 7 days",
+    "ChargePerDay": "(200/= per one day)",
+    "EnterLicenseNumber": "Enter License Number",
+    "GetFineDetails": "Get Fine Details",
+    "FineAmount": "Fine Amount:",
+    "Date": "Date:",
+    "CalculateTotalFine": "Calculate Total Fine",
+    "TotalFineAmount": "Total Fine Amount:"
+  }

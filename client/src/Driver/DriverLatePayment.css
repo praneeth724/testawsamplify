@@ -1,0 +1,257 @@
+.bglatepayment {
+  margin: 0;
+  padding: 0;
+  background-image: url("/public/bgimage.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.overlaylatepayment {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.bglatepayment h1 {
+  text-align: center;
+  color: white;
+}
+.latepaymentinterface {
+  float: center;
+  max-width: 600px;
+  margin-bottom: 4px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10%;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: rgba(253, 252, 252, 0.5);
+  width: 400px;
+  height: 490px;
+}
+.bglatepayment p {
+  text-align: center;
+}
+.latepaymentinterface input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.latepaymentinterface button {
+  width: 40%;
+  padding: 05px;
+  border: none;
+  border-radius: 3px;
+  background-color: #e4a80e;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  position: relative;
+  left: 130px;
+  top: 5px;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+@media only screen and (min-width: 200px) and (max-width: 475px) {
+  .latepaymentinterface {
+    width: 70vw;
+    max-width: 90vw;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: rgba(253, 252, 252, 0.5);
+    height: 443px;
+  }
+  .bglatepayment h1 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+  }
+
+  .latepaymentinterface input {
+    padding: 4px;
+    width: 95%;
+  }
+  .latepaymentinterface button {
+    padding: 5px;
+    margin-top: 2px;
+    left: 27%;
+    width: 50%;
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 476px) and (max-width: 575px) {
+  .latepaymentinterface {
+    width: 60vw;
+    max-width: 90vw;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: rgba(253, 252, 252, 0.5);
+    height: 443px;
+  }
+  .bglatepayment h1 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+  }
+
+  .latepaymentinterface input {
+    padding: 4px;
+    width: 95%;
+  }
+  .latepaymentinterface button {
+    padding: 5px;
+    margin-top: 2px;
+    left: 27%;
+    width: 50%;
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 675px) {
+  .latepaymentinterface {
+    width: 50vw;
+    max-width: 90vw;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: rgba(253, 252, 252, 0.5);
+    height: 443px;
+  }
+  .bglatepayment h1 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+  }
+
+  .latepaymentinterface input {
+    padding: 4px;
+    width: 95%;
+  }
+  .latepaymentinterface button {
+    padding: 5px;
+    margin-top: 2px;
+    left: 27%;
+    width: 50%;
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 676px) and (max-width: 775px) {
+  .latepaymentinterface {
+    width: 50vw;
+    max-width: 90vw;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: rgba(253, 252, 252, 0.5);
+    height: 443px;
+  }
+  .bglatepayment h1 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+  }
+
+  .latepaymentinterface input {
+    padding: 4px;
+    width: 95%;
+  }
+  .latepaymentinterface button {
+    padding: 5px;
+    margin-top: 2px;
+    left: 27%;
+    width: 50%;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 776px) and (max-width: 875px) {
+  .latepaymentinterface {
+    width: 45vw;
+    max-width: 90vw;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: rgba(253, 252, 252, 0.5);
+    height: 443px;
+  }
+  .bglatepayment h1 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+  }
+
+  .latepaymentinterface input {
+    padding: 4px;
+    width: 95%;
+  }
+  .latepaymentinterface button {
+    padding: 5px;
+    margin-top: 2px;
+    left: 27%;
+    width: 50%;
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 876px) and (max-width: 975px) {
+  .latepaymentinterface {
+    width: 40vw;
+    max-width: 90vw;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: rgba(253, 252, 252, 0.5);
+    height: 443px;
+  }
+  .bglatepayment h1 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+  }
+
+  .latepaymentinterface input {
+    padding: 4px;
+    width: 95%;
+  }
+  .latepaymentinterface button {
+    padding: 5px;
+    margin-top: 2px;
+    left: 27%;
+    width: 50%;
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 976px) and (max-width: 1280px) {
+  .latepaymentinterface {
+    width: 35vw;
+    max-width: 90vw;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: rgba(253, 252, 252, 0.5);
+    height: 443px;
+  }
+  .bglatepayment h1 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+  }
+
+  .latepaymentinterface input {
+    padding: 4px;
+    width: 95%;
+  }
+  .latepaymentinterface button {
+    padding: 5px;
+    margin-top: 2px;
+    left: 27%;
+    width: 50%;
+    font-size: 12px;
+  }
+}

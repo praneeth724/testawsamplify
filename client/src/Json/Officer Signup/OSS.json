@@ -1,0 +1,13 @@
+{
+  "Title": "මෙහි ලියාපදිංචි වන්න",
+  "EmailLabel": "ඊමේල් ලිපිනය",
+  "EmailPlaceholder": "ඔබගේ ඊමේල් ලිපිනය ඇතුළත් කරන්න",
+  "UsernameLabel": "නිළධාරියාගේ හැදුනුම්පත් අංකය",
+  "UsernamePlaceholder": "ඔබගේ නිළධාරි හැදුනුම්පත් අංකය ඇතුළත් කරන්න",
+  "PasswordLabel": "මුරපදය",
+  "PasswordPlaceholder": "ඔබගේ මුරපදය ඇතුළත් කරන්න",
+  "CreateAccountButton": "ගිණුමක් සාදන්න",
+  "ExistingMemberMessage": "ඔබ පැරණි සාමාජිකයෙක්ද?",
+  "LoginButton": "ඇතුළු වන්න",
+  "Conform": "මුරපදය තහවුරු කරන්න"
+}

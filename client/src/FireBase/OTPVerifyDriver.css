@@ -1,0 +1,288 @@
+.sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: url("/public/otp.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.sec1 {
+  color: green;
+}
+
+.sec2 {
+  text-align: center;
+  background-color: rgba(224, 243, 119, 0.89);
+  border-radius: 15px;
+  height: 60vh;
+  width: 25rem;
+}
+
+.sec3 {
+  font-size: 2rem;
+  margin-bottom: 70px;
+}
+
+.sec5,
+.sec9 {
+  margin-bottom: 10px;
+}
+
+.sec6 {
+  margin: 10px auto;
+  padding: 0px;
+  font-size: 1.2rem;
+  width: 200px;
+  text-align: center;
+  position: relative;
+  left: -70px;
+}
+
+.sec7,
+.buttonotp {
+  margin-top: 80px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 15rem;
+}
+
+.sec8,
+.sec12 {
+  margin-right: 10px;
+}
+.sec13 {
+  position: relative;
+  left: 20px;
+}
+
+@media only screen and (min-width: 360px) {
+  .sec2 {
+    text-align: center;
+    border-radius: 5px;
+    height: 50vh;
+    width: 20rem;
+    align-items: center;
+  }
+
+  .sec3 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .sec7 {
+    margin-top: 40px;
+    padding: 10px 20px;
+    border-radius: 1px;
+    cursor: pointer;
+    width: 12rem;
+  }
+  .buttonotp {
+    margin-top: 40px;
+    padding: 10px 20px;
+    border-radius: 1px;
+    cursor: pointer;
+    width: 12rem;
+  }
+
+  .sec6 {
+    margin: 7px auto;
+    padding: 2px;
+    font-size: 1rem;
+    width: 100px;
+    left: -117px;
+  }
+
+  .sec13 {
+    position: relative;
+    left: 5px;
+  }
+
+  .sec5 {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 412px) {
+  .sec2 {
+    text-align: center;
+    border-radius: 5px;
+    height: 50vh;
+    width: 23rem;
+    align-items: center;
+  }
+
+  .sec3 {
+    font-size: 2.3rem;
+    margin-bottom: 40px;
+  }
+
+  .sec13 {
+    position: relative;
+    left: 20px;
+  }
+  .sec7 {
+    margin-top: 35px;
+    padding: 15px 20px;
+    border-radius: 1px;
+    cursor: pointer;
+    width: 13rem;
+  }
+  .buttonotp {
+    margin-top: 50px;
+    padding: 10px 20px;
+    border-radius: 1px;
+    cursor: pointer;
+    width: 12rem;
+  }
+  .sec12 {
+    margin-right: 8px;
+  }
+
+  .sec6 {
+    margin: 10px auto;
+    padding: 2px;
+    font-size: 1rem;
+    width: 100px;
+    left: -117px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .sec2 {
+    height: 65vh;
+    width: 23rem;
+  }
+
+  .sec3 {
+    font-size: 2.8rem;
+    margin-bottom: 50px;
+  }
+  .sec9 {
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  .sec10 {
+    font-size: 1.3rem;
+  }
+  .sec13 {
+    position: relative;
+    left: 1px;
+    margin-top: 2px;
+  }
+  .flag-dropdown {
+    left: 34px;
+  }
+  .form-control {
+    font-size: 2rem;
+  }
+
+  .buttonotp {
+    margin-top: 70px;
+    padding: 10px 20px;
+    border-radius: 1px;
+    cursor: pointer;
+    width: 14rem;
+    font-size: 1rem;
+  }
+  .sec12 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .sec3 {
+    font-size: 3.1rem;
+    margin-top: 35px;
+  }
+
+  .sec6 {
+    width: 100px;
+  }
+  .sec2 {
+    height: 66vh;
+    width: 26 rem;
+    margin-top: 0px;
+  }
+  .sec13 {
+    position: relative;
+    left: -2px;
+    margin-top: 10px;
+  }
+  .flag-dropdown {
+    left: 34px;
+  }
+  .sec10 {
+    font-size: 1.3rem;
+  }
+
+  .sec9 {
+    margin-top: 40px;
+  }
+
+  .selected-flag {
+    font-size: 3rem;
+  }
+
+  .buttonotp {
+    margin-top: 80px;
+    padding: 9px 20px;
+    border-radius: 1px;
+    cursor: pointer;
+    width: 14rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .sec2 {
+    height: 65vh;
+    width: 26rem;
+  }
+
+  .sec3 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+  }
+  .flag-dropdown {
+    left: 58px;
+  }
+  .sec7 {
+    margin-top: 68px;
+    padding: 15px 20px;
+    border-radius: 1px;
+
+    width: 13rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .sec2 {
+    height: 66vh;
+    width: 26rem;
+  }
+
+  .sec3 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+  }
+  .flag-dropdown {
+    left: 58px;
+  }
+
+  .buttonotp {
+    margin-top: 80px;
+    padding: 9px 20px;
+    border-radius: 1px;
+    cursor: pointer;
+    width: 15rem;
+    font-size: 1.1rem;
+  }
+}

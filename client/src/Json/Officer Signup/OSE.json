@@ -1,0 +1,13 @@
+{
+  "Title": "Register Here",
+  "EmailLabel": "Email Address",
+  "EmailPlaceholder": "Enter your Email Address",
+  "UsernameLabel": "Officer ID",
+  "UsernamePlaceholder": "Enter your Officer Number",
+  "PasswordLabel": "Password",
+  "PasswordPlaceholder": "Enter your Password",
+  "CreateAccountButton": "Create an account",
+  "ExistingMemberMessage": "Are you an existing member?",
+  "LoginButton": "Login",
+  "Conform": "Conform Password"
+}

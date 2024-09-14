@@ -1,0 +1,77 @@
+@media only screen and (min-width: 360px) {
+  .homeButton {
+    background-color: #e4a80e;
+    height: 50px;
+    margin: 25px 0 0 20px;
+    width: 50px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    font-size: 9px;
+  }
+}
+
+@media only screen and (min-width: 412px) {
+  .homeButton {
+    background-color: #e4a80e;
+    height: 50px;
+    margin: 25px 0 0 20px;
+    width: 50px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    font-size: 9px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .homeButton {
+    background-color: #e4a80e;
+    height: 55px;
+    margin: 25px 0 0 20px;
+    width: 55px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .homeButton {
+    background-color: #e4a80e;
+    height: 55px;
+    margin: 25px 0 0 20px;
+    width: 55px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .homeButton {
+    background-color: #e4a80e;
+    height: 60px;
+    margin: 10px 0 0 50px;
+    width: 60px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 700;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .homeButton {
+    background-color: #e4a80e;
+    height: 60px;
+    margin: 15px 0 0 50px;
+    width: 60px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 700;
+    font-size: 12px;
+  }
+}

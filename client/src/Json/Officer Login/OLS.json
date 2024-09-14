@@ -1,0 +1,13 @@
+{
+  "Title": "ඇතුළු වන්න",
+  "UsernameLabel": "නිළධාරියාගේ හැදුනුම්පත් අංකය",
+  "UsernamePlaceholder": "ඔබගේ නිළධාරි හැදුනුම්පත් අංකය ඇතුළත් කරන්න",
+  "PasswordLabel": "මුරපදය",
+  "PasswordPlaceholder": "ඔබගේ මුරපදය ඇතුළත් කරන්න",
+  "LoginButton": "ඇතුළු වන්න",
+  "NewMemberMessage": "ඔබ නව සාමාජිකයෙක්ද?",
+  "CreateAccountButton": "ගිණුමක් සාදන්න",
+  "BackButton": "ආපසු",
+  "Back": "ආපසු",
+  "Forgot": "මුරපදය අමතක වුණා ද"
+}

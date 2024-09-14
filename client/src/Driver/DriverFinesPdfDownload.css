@@ -1,0 +1,124 @@
+.bgfd {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/public/bgimage.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.Download {
+  float: center;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 10%;
+  padding-left: 50px;
+  padding-top: 60px;
+  background-color: rgba(253, 252, 252, 0.5);
+  width: 500px;
+  height: 250px;
+}
+.Download h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.Download button {
+  width: 220px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e4a80e;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  position: relative;
+  left: 120px;
+  top: 20px;
+}
+@media only screen and (min-width: 200px) and (max-width: 667px) {
+  .Download {
+    width: 60vw; /* Increase width for smaller screens */
+    padding: 20px; /* Reduce padding for smaller screens */
+    height: 40%; /* Allow height to adjust based on content */
+  }
+
+  .Download button {
+    width: 60%;
+    border-radius: 5px;
+    margin-top: 1rem;
+    position: relative;
+    left: 22%;
+    top: 10%;
+  }
+  .Download h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 668px) and (max-width: 1000px) {
+  .Download {
+    width: 40vw; /* Increase width for smaller screens */
+    padding: 20px; /* Reduce padding for smaller screens */
+    height: 40%; /* Allow height to adjust based on content */
+  }
+
+  .Download button {
+    width: 60%;
+    border-radius: 5px;
+    margin-top: 1rem;
+    position: relative;
+    left: 22%;
+    top: 10%;
+  }
+  .Download h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1280px) {
+  .Download {
+    width: 30vw; /* Increase width for smaller screens */
+    padding: 20px; /* Reduce padding for smaller screens */
+    height: 40%; /* Allow height to adjust based on content */
+  }
+
+  .Download button {
+    width: 60%;
+    border-radius: 5px;
+    margin-top: 1rem;
+    position: relative;
+    left: 22%;
+    top: 10%;
+  }
+  .Download h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 1281px) {
+  .Download {
+    width: 20vw; /* Increase width for smaller screens */
+    padding: 20px; /* Reduce padding for smaller screens */
+    height: 40%; /* Allow height to adjust based on content */
+  }
+
+  .Download button {
+    width: 60%;
+    border-radius: 5px;
+    margin-top: 1rem;
+    position: relative;
+    left: 22%;
+    top: 10%;
+  }
+  .Download h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+}

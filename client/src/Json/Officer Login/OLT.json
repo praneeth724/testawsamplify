@@ -1,0 +1,13 @@
+{
+  "Title": "உள்நுழைக",
+  "UsernameLabel": "அதிகாரி எண்",
+  "UsernamePlaceholder": "உங்கள் அதிகாரி எண்ணை உள்ளிடவும்",
+  "PasswordLabel": "கடவுச்சொல்",
+  "PasswordPlaceholder": "உங்கள் கடவுச்சொல்லை உள்ளிடவும்",
+  "LoginButton": "உள்நுழைகய",
+  "NewMemberMessage": "நீங்கள் புதிய உறுப்பினரா?",
+  "CreateAccountButton": "ஒரு கணக்கை உருவாக்கவும்",
+  "BackButton": "பின்செல்",
+  "Back": "மீண்டும்",
+  "Forgot": "கடவுச்சொல்லை மறந்துவிட்டீர்களா"
+}

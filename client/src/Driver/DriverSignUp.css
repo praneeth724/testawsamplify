@@ -1,0 +1,387 @@
+.bgp {
+  margin: 0;
+  padding: 0;
+  background-image: url("/public/bgimage.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.loginFormofficersign {
+  float: center;
+  max-width: 600px;
+  margin-bottom: 4px;
+  margin: auto;
+  opacity: 0.75;
+  border-radius: 10%;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-top: 08px;
+  padding-bottom: 30px;
+  background-color: white;
+  width: 400px;
+  height: 480px;
+}
+
+.loginFormofficersign form {
+  text-align: center;
+}
+
+.loginFormofficersign h4 {
+  margin-bottom: 20px;
+}
+
+.loginFormofficersign label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.loginFormofficersign .textInputofficersign {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.loginFormofficersign .buttonofficersign {
+  width: 220px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #e4a80e;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  position: relative;
+  left: 9px;
+  /* top: 60px; */
+}
+
+.loginFormofficersign .registerStatus {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 250px) {
+  .bgp h1 {
+    font-size: 20px;
+  }
+  .loginFormofficersign label {
+    font-size: 10px;
+  }
+
+  .loginFormofficersign {
+    float: center;
+    max-width: 600px;
+    margin-bottom: 4px;
+    margin: auto;
+    opacity: 0.72;
+    border-radius: 5%;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 08px;
+    padding-bottom: 30px;
+    background-color: white;
+    width: 100px;
+    height: 430px;
+  }
+
+  .loginFormofficersign .textInputofficersign {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  .loginFormofficersign .buttonofficersign {
+    width: 76px;
+    padding: 10px;
+    height: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e4a80e;
+    color: rgb(0, 0, 0);
+    font-size: 06px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 2px;
+    position: relative;
+    left: 9px;
+    /* top: 50px; */
+    bottom: 5px;
+  }
+}
+@media only screen and (min-width: 250px) and (max-width: 344px) {
+  .bgp h1 {
+    font-size: 20px;
+  }
+  .loginFormofficersign label {
+    font-size: 10px;
+  }
+
+  .loginFormofficersign {
+    float: center;
+    max-width: 600px;
+    margin-bottom: 4px;
+    margin: auto;
+    opacity: 0.72;
+    border-radius: 5%;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 08px;
+    padding-bottom: 30px;
+    background-color: white;
+    width: 130px;
+    height: 430px;
+  }
+
+  .loginFormofficersign .textInputofficersign {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  .loginFormofficersign .buttonofficersign {
+    width: 140px;
+    padding: 10px;
+    height: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e4a80e;
+    color: rgb(0, 0, 0);
+    font-size: 09px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 2px;
+    position: relative;
+    left: 9px;
+    /* top: 50px; */
+    bottom: 5px;
+  }
+}
+
+@media only screen and (min-width: 344px) and (max-width: 360px) {
+  .bgp h1 {
+    font-size: 25px;
+  }
+
+  .loginFormofficersign {
+    float: center;
+    max-width: 600px;
+    margin-bottom: 4px;
+    margin: auto;
+    opacity: 0.72;
+    border-radius: 10%;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 08px;
+    padding-bottom: 30px;
+    background-color: white;
+    width: 240px;
+    height: 390px;
+  }
+
+  .loginFormofficersign .buttonofficersign {
+    width: 76px;
+    padding: 10px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e4a80e;
+    color: rgb(0, 0, 0);
+    font-size: 08px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 2px;
+    position: relative;
+    left: 9px;
+    /* top: 50px; */
+    bottom: 5px;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 375px) {
+  .bgp h1 {
+    font-size: 30px;
+  }
+
+  .loginFormofficersign {
+    float: center;
+    max-width: 600px;
+    margin-bottom: 50px;
+    border-radius: 10%;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 08px;
+    padding-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    width: 65%;
+    height: 80vh;
+  }
+
+  .loginFormofficersign .buttonofficersign {
+    width: 76px;
+    padding: 10px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e4a80e;
+    color: rgb(0, 0, 0);
+    font-size: 08px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 2px;
+    position: relative;
+    left: 9px;
+    /* top: 50px; */
+    bottom: 5px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
+  .bgp h1 {
+    font-size: 30px;
+  }
+
+  .bgp {
+    background-image: url("/public/bgimage.jpg");
+    display: flex;
+    height: 102vh;
+    background-size: cover;
+  }
+  .loginFormofficersign {
+    float: center;
+    max-width: 600px;
+    margin-bottom: 50px;
+    border-radius: 10%;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 08px;
+    padding-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 400px;
+  }
+
+  .loginFormofficersign .buttonofficersign {
+    width: 85px;
+    padding: 10px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e4a80e;
+    color: rgb(0, 0, 0);
+    font-size: 08px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 2px;
+    position: relative;
+    left: 9px;
+    /* top: 50px; */
+    bottom: 5px;
+  }
+}
+@media (min-width: 438px) and (max-width: 666px) {
+  .bgp h1 {
+    font-size: 30px;
+  }
+
+  .bgp {
+    background-image: url("/public/bgimage.jpg");
+    display: flex;
+    height: 102vh;
+    background-size: cover;
+  }
+  .loginFormofficersign {
+    float: center;
+    max-width: 600px;
+    margin-bottom: 50px;
+    border-radius: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 08px;
+    padding-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 400px;
+  }
+
+  .loginFormofficersign .buttonofficersign {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .loginFormofficersign .buttonofficersign {
+    width: 100px;
+    padding: 10px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e4a80e;
+    color: rgb(0, 0, 0);
+    font-size: 08px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 2px;
+    position: relative;
+    left: 9px;
+    /* top: 50px; */
+    bottom: 5px;
+  }
+  .loginFormofficersign .textInputofficersign {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (min-width: 667px) and (max-width: 1075px) {
+  .bgp h1 {
+    font-size: 30px;
+  }
+
+  .loginFormofficersign {
+    float: center;
+    max-width: 600px;
+    margin-bottom: 50px;
+    border-radius: 10%;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 08px;
+    padding-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 370px;
+  }
+
+  .loginFormofficersign .buttonofficersign {
+    width: 100px;
+    padding: 10px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e4a80e;
+    color: rgb(0, 0, 0);
+    font-size: 08px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 2px;
+    position: relative;
+    left: 9px;
+    /* top: 50px; */
+    bottom: 5px;
+  }
+  .loginFormofficersign .textInputofficersign {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+}
